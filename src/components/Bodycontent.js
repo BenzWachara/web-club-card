@@ -4,6 +4,7 @@ import Playcard from '../img/card-king.png'
 function Bodycontent(){
     return(
         <section className="body-content">
+            <div className="content-block">
             <div className="content-card">
                 <h1>CARD KING</h1>
                 <h2>KING OF SPADES</h2>
@@ -11,6 +12,7 @@ function Bodycontent(){
             </div>
             <div className="show-card">
             <img src={Playcard} alt="card-king.png" className="card-king"/>
+            </div>
             </div>
         </section>
     );

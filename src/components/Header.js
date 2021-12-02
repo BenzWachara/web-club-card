@@ -4,6 +4,7 @@ import profilepic from '../img/logo cc.png'
 function Header(){
     return(
     <section className="content-header">
+        <div className="header-block">
         <div className="box-logo">
             <img src={profilepic} alt="logo cc.png" className="logo-css"/>
         </div>
@@ -24,7 +25,9 @@ function Header(){
                     <li>
                         <a href="#">Contact</a>
                     </li>
+                    
                 </ul>
+        </div>
         </div>
     </section>
     );
