@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Radioitems from './Radioitem';
+
 import K1 from '../img/K1.png'
 import K2 from '../img/K2.png'
 import KKKK from '../img/KKKK.png'
@@ -6,6 +8,7 @@ import K3 from '../img/K3.png'
 import K4 from '../img/K4.png'
 
 class Jackcard extends Component {
+    
     render() {
         return (
         <section className="body-content">
@@ -29,8 +32,15 @@ class Jackcard extends Component {
                     
                 </div>
                 <div className="slide-page">
-
+                    <div className="navigation-manual">
+                        <Radioitems tolink="/jack"></Radioitems>
+                        <Radioitems tolink="/queen"></Radioitems>
+                        <Radioitems tolink="/king"></Radioitems>
+                        <Radioitems tolink="/joker"></Radioitems>
+                        <Radioitems tolink="/contact"></Radioitems>
+                    </div>
                 </div>
+                
             </div>
             </div>
         </section>

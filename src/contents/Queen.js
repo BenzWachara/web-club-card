@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Radioitems from './Radioitem';
+import Radioitems from '../components/Radioitem';
 
 import K1 from '../img/K1.png'
 import K2 from '../img/K2.png'
@@ -7,13 +7,13 @@ import KKKK from '../img/KKKK.png'
 import K3 from '../img/K3.png'
 import K4 from '../img/K4.png'
 
-class Kingcard extends Component{
+class Queencard extends Component{
     render(){
     return(
         <section className="body-content">
             <div className="content-block">
             <div className="content-card">
-                <div className="size-text"><h1>CARD KING</h1></div>
+                <div className="size-text"><h1>CARD Queen</h1></div>
                 <h2>KING OF SPADES</h2>
                 <p className="description-card">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 <button className="btn-more-info">MORE INFO</button>
@@ -46,4 +46,4 @@ class Kingcard extends Component{
     }
 }
 
-export default Kingcard;
+export default Queencard;
